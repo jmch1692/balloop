@@ -1,5 +1,6 @@
 global.p_system = part_system_create_layer(layer, true);
 global.p_wind_pulse = part_type_create();
+alarm[0] = game_get_speed(gamespeed_fps) * 1;  
 
 //Effect of a wind pulse
 part_type_shape(global.p_wind_pulse, pt_shape_flare);
