@@ -127,7 +127,7 @@
     {"lower":32,"upper":127,},
     {"lower":9647,"upper":9647,},
   ],
-  "regenerateBitmap": false,
+  "regenerateBitmap": true,
   "sampleText": "Start",
   "sdfSpread": 20,
   "size": 18.0,
