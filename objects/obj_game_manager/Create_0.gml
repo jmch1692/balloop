@@ -1,13 +1,26 @@
-global.p_system = part_system_create_layer(layer, true);
+global.p_system = part_system_create_layer(layer, false);
+
 global.p_wind_pulse = part_type_create();
+global.p_powerup_spark = part_type_create();
+
 alarm[0] = game_get_speed(gamespeed_fps) * 1;  
 
 //Effect of a wind pulse
 part_type_shape(global.p_wind_pulse, pt_shape_flare);
-part_type_size(global.p_wind_pulse, 0.01, 0.05, 0, 0.5);
-part_type_color3(global.p_wind_pulse, c_aqua, c_lime, c_red);
+part_type_size(global.p_wind_pulse, 0.0, 1.6, 0.1, 0.0);
+part_type_color1(global.p_wind_pulse, c_white);
 part_type_alpha3(global.p_wind_pulse, 0.5, 1, 0);
-part_type_speed(global.p_wind_pulse, 2, 5, -0.10, 0);
-part_type_direction(global.p_wind_pulse, 0, 359, 0, 20);
-part_type_blend(global.p_wind_pulse, true);
-part_type_life(global.p_wind_pulse, 30, 60);
+part_type_speed(global.p_wind_pulse, 0.0, 0.0, 0.0, 0.0);
+part_type_direction(global.p_wind_pulse, 0.0, 0.0, 0.0, 0.0);
+part_type_blend(global.p_wind_pulse, false);
+part_type_life(global.p_wind_pulse, 20, 30);
+
+//Effect of powerup sparks
+part_type_shape(global.p_powerup_spark, pt_shape_spark);
+part_type_size(global.p_powerup_spark, 0.3, 0.5, 0, 0);
+part_type_color1(global.p_powerup_spark, c_yellow);
+part_type_speed(global.p_powerup_spark, 1, 1.5, 0, 0);
+part_type_gravity(global.p_powerup_spark, 0.02, 270);
+part_type_direction(global.p_powerup_spark,0,359,0, 10);
+part_type_blend(global.p_powerup_spark, true);
+part_type_life(global.p_powerup_spark, 60, 80);
