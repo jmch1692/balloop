@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
@@ -71,6 +71,7 @@
     {"id":{"name":"obj_fork_damage","path":"objects/obj_fork_damage/obj_fork_damage.yy",},},
     {"id":{"name":"spr_BlueDonut","path":"sprites/spr_BlueDonut/spr_BlueDonut.yy",},},
     {"id":{"name":"obj_parent_obstacle_harm","path":"objects/obj_parent_obstacle_harm/obj_parent_obstacle_harm.yy",},},
+    {"id":{"name":"dialogue_text","path":"scripts/dialogue_text/dialogue_text.yy",},},
     {"id":{"name":"spr_Grapes","path":"sprites/spr_Grapes/spr_Grapes.yy",},},
     {"id":{"name":"spr_Pineapple","path":"sprites/spr_Pineapple/spr_Pineapple.yy",},},
     {"id":{"name":"obj_balloon","path":"objects/obj_balloon/obj_balloon.yy",},},
@@ -96,7 +97,6 @@
     {"id":{"name":"spr_GreenIceCream","path":"sprites/spr_GreenIceCream/spr_GreenIceCream.yy",},},
     {"id":{"name":"spr_GreenDonut","path":"sprites/spr_GreenDonut/spr_GreenDonut.yy",},},
     {"id":{"name":"spr_BlueIceCream","path":"sprites/spr_BlueIceCream/spr_BlueIceCream.yy",},},
-    {"id":{"name":"obj_tutorial_dialog","path":"objects/obj_tutorial_dialog/obj_tutorial_dialog.yy",},},
     {"id":{"name":"spr_RedDrinkCup","path":"sprites/spr_RedDrinkCup/spr_RedDrinkCup.yy",},},
     {"id":{"name":"spr_PinkDonut","path":"sprites/spr_PinkDonut/spr_PinkDonut.yy",},},
     {"id":{"name":"spr_Pizza","path":"sprites/spr_Pizza/spr_Pizza.yy",},},
@@ -106,6 +106,7 @@
     {"id":{"name":"spr_FrenchFries","path":"sprites/spr_FrenchFries/spr_FrenchFries.yy",},},
     {"id":{"name":"spr_default_tileset","path":"sprites/spr_default_tileset/spr_default_tileset.yy",},},
     {"id":{"name":"spr_GreenCocktail","path":"sprites/spr_GreenCocktail/spr_GreenCocktail.yy",},},
+    {"id":{"name":"surface_focus","path":"scripts/surface_focus/surface_focus.yy",},},
     {"id":{"name":"rm_playground","path":"rooms/rm_playground/rm_playground.yy",},},
   ],
   "RoomOrderNodes": [

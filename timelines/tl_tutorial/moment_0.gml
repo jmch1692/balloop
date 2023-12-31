@@ -1,2 +1,2 @@
-//@description start
-tutorial_text = "To get started, tap the screen to send a wind pulse"
+///@description Very first tutorial line
+dialogue_text("Let's get started!");
