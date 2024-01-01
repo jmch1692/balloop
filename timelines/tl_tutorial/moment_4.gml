@@ -1,4 +1,3 @@
-///@description powerup grabbed
-dialogue_text = "You've got it!"
+///@description food item appeared
 
-//fireworks
+dialogue_text("See if you can grab that");

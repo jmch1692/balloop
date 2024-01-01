@@ -1,5 +1,5 @@
 ///@description Good job
-dialogue_text = "Good job!"
+dialogue_text("Good job!");
 
 //fireworks
 repeat(20){
