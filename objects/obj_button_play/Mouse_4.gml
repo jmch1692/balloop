@@ -24,5 +24,5 @@
 // Inherit the parent event
 event_inherited();
 sprite_index = 0;
-room_goto(rm_playground);
+room_goto_next();
 
