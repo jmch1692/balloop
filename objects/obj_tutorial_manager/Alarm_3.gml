@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Spawn a food item
 
 text_position = 0;
 new_text = "";
