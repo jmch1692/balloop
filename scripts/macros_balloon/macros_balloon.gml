@@ -1,0 +1,1 @@
+#macro BALLOON_FLY_SPEED 0.05

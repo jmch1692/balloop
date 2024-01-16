@@ -1,10 +1,7 @@
 global.p_system = part_system_create_layer(layer, false);
-
 global.p_wind_pulse = part_type_create();
 global.p_powerup_spark = part_type_create();
-
-alarm[0] = game_get_speed(gamespeed_fps) * 1;  
-
+	
 //Effect of a wind pulse
 part_type_shape(global.p_wind_pulse, pt_shape_flare);
 part_type_size(global.p_wind_pulse, 0.0, 1.6, 0.1, 0.0);
@@ -24,3 +21,6 @@ part_type_gravity(global.p_powerup_spark, 0.02, 270);
 part_type_direction(global.p_powerup_spark,0,359,0, 10);
 part_type_blend(global.p_powerup_spark, true);
 part_type_life(global.p_powerup_spark, 60, 80);
+
+// Collectibles
+global.collectibles = ds_list_create();

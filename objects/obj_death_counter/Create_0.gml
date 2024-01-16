@@ -1,0 +1,1 @@
+global.death_counter = 0;

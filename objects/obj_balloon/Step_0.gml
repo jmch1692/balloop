@@ -1,5 +1,5 @@
 //Float
-vspeed -= 0.05;
+vspeed -= BALLOON_FLY_SPEED;
 
 // Cap speed
 if (speed >= 3.0){
