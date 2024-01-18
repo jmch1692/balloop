@@ -17,7 +17,7 @@ if (timeline_position == 2){
 }
 
 if(timeline_position == 5){
-	if (!instance_exists(obj_powerup)){
+	if (!instance_exists(obj_collectible)){
 		timeline_position++;
 		alarm[5] = game_get_speed(gamespeed_fps) * 3;
 	}

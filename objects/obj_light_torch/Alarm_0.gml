@@ -1,1 +1,1 @@
-effect_clear();
+//effect_clear();

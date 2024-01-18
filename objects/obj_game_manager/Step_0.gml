@@ -6,7 +6,6 @@ if(mouse_check_button_pressed(mb_left)){
 	for (var _i = 0; _i < _count_of_instances; _i++) {
 		var _this = _instances_detected[_i].object_index;
 		var _object_name = object_get_name(_this);
-		log(_object_name);
 		
 		if (_object_name == "obj_balloon"){
 			var _distance = point_distance(obj_balloon.x, obj_balloon.y, mouse_x, mouse_y);

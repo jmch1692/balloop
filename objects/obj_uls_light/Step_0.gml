@@ -4,5 +4,5 @@
 	if (light_animation)
 	{
 		//Animation
-		//scr_light_animation();
+		scr_light_animation();
 	}

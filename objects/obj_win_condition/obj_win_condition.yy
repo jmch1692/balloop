@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "level_1",
-    "path": "folders/Objects/system/world_1/level_1.yy",
+    "name": "system",
+    "path": "folders/Objects/system.yy",
   },
   "parentObjectId": null,
   "persistent": false,
